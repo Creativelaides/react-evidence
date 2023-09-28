@@ -1,7 +1,11 @@
-function Home() {
+ import { Layout } from "../../components/Layout";
+ 
+ const Home = () => {
   return (
     <>
-      <div className="bg-amber-100">Home</div>
+      <Layout>
+        Home
+      </Layout>
     </>
   );
 }
